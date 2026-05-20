@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-label="Trust Me Bro logo">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ef3d2f"/>
+      <stop offset="100%" stop-color="#b8251a"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="60" width="1080" height="1080" rx="180" fill="url(#bg)"/>
+  <rect x="95" y="95" width="1010" height="1010" rx="145" fill="none" stroke="#ffd34d" stroke-width="26"/>
+
+  <g transform="translate(600 430)">
+    <ellipse cx="0" cy="0" rx="310" ry="170" fill="#1f1f1f"/>
+    <ellipse cx="0" cy="-8" rx="255" ry="125" fill="#ffe9b4"/>
+    <circle cx="-105" cy="-15" r="15" fill="#1f1f1f"/>
+    <circle cx="105" cy="-15" r="15" fill="#1f1f1f"/>
+    <path d="M-85 45 Q0 105 85 45" fill="none" stroke="#1f1f1f" stroke-width="15" stroke-linecap="round"/>
+    <path d="M-210 -95 L-145 -125" stroke="#ffd34d" stroke-width="18" stroke-linecap="round"/>
+    <path d="M210 -95 L145 -125" stroke="#ffd34d" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <text x="600" y="710" text-anchor="middle" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="170" fill="#ffe9b4" letter-spacing="3">TRUST ME</text>
+  <text x="600" y="860" text-anchor="middle" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="220" fill="#ffd34d" stroke="#1f1f1f" stroke-width="10" paint-order="stroke">BRO</text>
+
+  <text x="600" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" fill="#fff6dd" letter-spacing="2">DEFINITELY PROBABLY DELICIOUS</text>
+</svg>

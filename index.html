@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trust Me Bro — Definitely Probably Delicious</title>
+  <style>
+    :root{--red:#ef3d2f;--dark:#1f1f1f;--gold:#ffd34d;--cream:#fff6dd}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#fffaf0;color:var(--dark)}
+    .hero{background:linear-gradient(135deg,#ef3d2f,#b8251a);color:white;padding:32px 20px 56px}
+    .wrap{max-width:1100px;margin:0 auto}
+    .top{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+    .logo{width:140px;height:140px;border-radius:24px;background:white;padding:8px}
+    h1{font-size:clamp(2rem,5vw,4rem);margin:.2em 0 .1em;line-height:1}
+    .tag{font-size:1.15rem;opacity:.95;max-width:700px}
+    .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .btn{padding:12px 18px;border-radius:999px;font-weight:700;text-decoration:none;display:inline-block}
+    .btn.primary{background:var(--gold);color:#221500}
+    .btn.ghost{border:2px solid #fff;color:#fff}
+    .section{padding:48px 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    .card{background:#fff;border:2px solid #f0dcc4;border-radius:16px;padding:16px}
+    .card h3{margin:.2em 0 .4em}
+    .pill{display:inline-block;background:#ffedd6;border:1px solid #efc188;border-radius:999px;padding:4px 10px;font-size:.8rem;font-weight:700}
+    .banner{background:var(--dark);color:var(--cream);border-radius:16px;padding:20px}
+    footer{padding:30px 20px;background:#201b18;color:#d8c9b3}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap top">
+      <img class="logo" src="./logo.svg" alt="Trust Me Bro logo" />
+      <div>
+        <h1>TRUST ME BRO</h1>
+        <p class="tag">Street-food chaos, suspicious confidence, and wildly good flavor. It’s definitely probably beef. Or chicken. You’re about to eat 100%.</p>
+        <div class="btns">
+          <a class="btn primary" href="#menu">Order Now</a>
+          <a class="btn ghost" href="#franchise">Open a Franchise</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="menu">
+    <div class="wrap">
+      <h2>Signature Menu</h2>
+      <div class="grid">
+        <article class="card"><span class="pill">Best Seller</span><h3>Trust Me Bro, It’s Definitely Beef</h3><p>Smoked mystery protein, charred onions, bro sauce, toasted roll.</p></article>
+        <article class="card"><span class="pill">Fan Favorite</span><h3>Trust Me Bro, It’s Probably Definitely Chicken</h3><p>Crispy fillet energy, honey heat glaze, pickles, shredded slaw.</p></article>
+        <article class="card"><span class="pill">Late Night</span><h3>You’re About To Eat 100%</h3><p>Double stack, fries inside, molten cheese, no regrets.</p></article>
+        <article class="card"><span class="pill">Combo</span><h3>The Plausible Platter</h3><p>Any sandwich + loaded fries + drink in a giant paper boat.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap banner" id="franchise">
+      <h2>Brand Positioning</h2>
+      <p><strong>Voice:</strong> Playfully unhinged, ultra-confident, meme-friendly.</p>
+      <p><strong>Audience:</strong> Gen Z + millennial foodies, late-night crowds, social-first snack hunters.</p>
+      <p><strong>Tagline:</strong> <em>Definitely probably delicious.</em></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p>© 2026 Trust Me Bro Foods</p>
+      <p>Domain candidate: <strong>trustmebroeats.com</strong></p>
+    </div>
+  </footer>
+</body>
+</html>
