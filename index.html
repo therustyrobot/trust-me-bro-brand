@@ -20,10 +20,9 @@
     .section{padding:48px 20px}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
     .card{background:#fff;border:2px solid #f0dcc4;border-radius:16px;padding:16px}
+    .card img{width:100%;height:170px;object-fit:cover;border-radius:12px;border:1px solid #f0dcc4;margin:10px 0}
     .card h3{margin:.2em 0 .4em}
     .pill{display:inline-block;background:#ffedd6;border:1px solid #efc188;border-radius:999px;padding:4px 10px;font-size:.8rem;font-weight:700}
-    .food-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0 22px}
-    .food-gallery img{width:100%;height:180px;object-fit:cover;border-radius:14px;border:2px solid #f0dcc4}
     footer{padding:30px 20px;background:#201b18;color:#d8c9b3}
   </style>
 </head>
@@ -45,17 +44,11 @@
   <section class="section" id="menu">
     <div class="wrap">
       <h2>Signature Menu</h2>
-      <div class="food-gallery" aria-label="Food photos">
-        <img src="https://unsplash.com/photos/H9ZhJTDNyKE/download?force=true&w=1200" alt="Neon-lit street food stall at night" />
-        <img src="https://unsplash.com/photos/Otyvl8gD1w4/download?force=true&w=1200" alt="Street food counter under bright neon signs" />
-        <img src="https://unsplash.com/photos/i4m2sS4ntcc/download?force=true&w=1200" alt="Night food cart scene with city lights" />
-        <img src="https://unsplash.com/photos/oyeu9DE7GPQ/download?force=true&w=1200" alt="Busy neon night market food street" />
-      </div>
       <div class="grid">
-        <article class="card"><span class="pill">Best Seller</span><h3>Trust Me Bro, It’s Definitely Beef</h3><p>Smoked mystery protein, charred onions, bro sauce, toasted roll.</p></article>
-        <article class="card"><span class="pill">Fan Favorite</span><h3>Trust Me Bro, It’s Probably Definitely Chicken</h3><p>Crispy fillet energy, honey heat glaze, pickles, shredded slaw.</p></article>
-        <article class="card"><span class="pill">Late Night</span><h3>You’re About To Eat 100%</h3><p>Double stack, fries inside, molten cheese, no regrets.</p></article>
-        <article class="card"><span class="pill">Combo</span><h3>The Plausible Platter</h3><p>Any sandwich + loaded fries + drink in a giant paper boat.</p></article>
+        <article class="card"><span class="pill">Best Seller</span><h3>Trust Me Bro, It’s Definitely Beef</h3><img src="https://unsplash.com/photos/dMUt0X3f59Q/download?force=true&w=1200" alt="Close-up beef burger with sauce and toasted bun" /><p>Smoked mystery protein, charred onions, bro sauce, toasted roll.</p></article>
+        <article class="card"><span class="pill">Fan Favorite</span><h3>Trust Me Bro, It’s Probably Definitely Chicken</h3><img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&fit=crop&w=1200&q=80" alt="Close-up crispy chicken sandwich with slaw" /><p>Crispy fillet energy, honey heat glaze, pickles, shredded slaw.</p></article>
+        <article class="card"><span class="pill">Late Night</span><h3>You’re About To Eat 100%</h3><img src="https://unsplash.com/photos/IGfIGP5ONV0/download?force=true&w=1200" alt="Close-up loaded fries with melted cheese" /><p>Double stack, fries inside, molten cheese, no regrets.</p></article>
+        <article class="card"><span class="pill">Combo</span><h3>The Plausible Platter</h3><img src="https://unsplash.com/photos/x00CzBt4Dfk/download?force=true&w=1200" alt="Close-up platter with burger fries and drink" /><p>Any sandwich + loaded fries + drink in a giant paper boat.</p></article>
       </div>
     </div>
   </section>
